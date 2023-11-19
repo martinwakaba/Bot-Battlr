@@ -3,7 +3,6 @@ import React from "react";
 import SingleBot from "./SingleBot";
 
 export default function BotCollection({ bots, enlistedBots, setEnlistedBots, handleBotDischarge  }) {
-  
   return (
     <div className="BotCollection">
       <h2>Bot Battlr | Bot Collection</h2>

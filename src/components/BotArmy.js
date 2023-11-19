@@ -8,7 +8,7 @@ export default function BotArmy({ bots, releaseFromYourBotArmy, enlistedBots}){
           releaseFromYourBotArmy(updatedEnlistedBots);
     }
 
-    const groupedBots = [];
+    const groupedBots =[];
     
 
     for (let i = 0; i < enlistedBots.length; i += 5) {

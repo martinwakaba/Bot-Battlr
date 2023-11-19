@@ -29,9 +29,9 @@ function handleBotDischarge(bot) {
 
   return (
     <div className="App">
-        <BotArmy 
+       <BotArmy 
         enlistedBots={enlistedBots} 
-        releaseFromYourBotArmy={releaseFromArmy}/>
+        releaseFromYourBotArmy={releaseFromArmy}/> 
 
       <BotCollection
        bots={bots} 
@@ -39,6 +39,7 @@ function handleBotDischarge(bot) {
        setEnlistedBots={setEnlistedBots}
        handleBotDischarge={handleBotDischarge}
       />
+      
       
     </div>
   );
