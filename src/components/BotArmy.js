@@ -17,7 +17,7 @@ export default function BotArmy({ bots, releaseFromYourBotArmy, enlistedBots}){
 
     return (
       <div className="bot-army">
-        <h2>Your Bot Army</h2>
+        <h2>Bot Battlr | Your Bot Army</h2>
       {groupedBots.map((group, index) => (
         <div key={index} className="bot-row">
           {group.map((bot) => (

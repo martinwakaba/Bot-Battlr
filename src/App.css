@@ -4,11 +4,11 @@
   --dark-one: #333;
   --dark-two: #7a7a7a;
   --dark-three: #0f0c16;
-  --main-color: #581a70b9;
+  --main-color: #777a09b9;
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
-  --light-four: #1db99f;
+  --light-four: #c360b9;
 }
 
 *,
@@ -52,6 +52,7 @@ h2 {
   justify-content: center;
   padding: 20px;
   font-family: "Poppins", sans-serif;
+  background-color: #bbeff0;
 }
 
 .BotCollection {
@@ -141,8 +142,8 @@ h2 {
   color: white;
   border: none;
   border-radius: 15%;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   font-size: 16px;
   display: flex;
   align-items: center;

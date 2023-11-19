@@ -20,13 +20,7 @@ function SingleBot({ bot, enlistedBots, setEnlistedBots }) {
         method: "DELETE",
       })
         .then((resp) => {
-          if (resp.status === 200) {
-            // Bot deleted successfully
-          } else if (resp.status === 404) {
-            // Handle the case where the bot is not found
-          } else {
-            // Handle error
-          }
+
         })
         .catch((error) => {
           console.error("Error deleting bot:", error);
